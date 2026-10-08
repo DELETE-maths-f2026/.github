@@ -1,6 +1,6 @@
 <!-- SYSTEM-OWNED - do not edit, edits here are overwritten on the next refresh. -->
 
-# DELETE-maths-f2026 - cohort control repo
+# Maths for Data Science - cohort control repo
 
 This is the **`.github` repo** for the `DELETE-maths-f2026` cohort org. **Students and instructors rarely need to touch anything in this repo directly.**
 
