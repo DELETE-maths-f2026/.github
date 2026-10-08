@@ -2,63 +2,75 @@
   "schema": "dsl.student-status/2",
   "semester": "DELETE-maths-f2026",
   "course_name": "Maths for Data Science",
+  "course_description": "This course aims to deliver a compact and tailored introduction to the core mathematical concepts of data science: probability theory, calculus, linear algebra, and statistics. We will establish and reinforce the foundation that will support your further studies in machine learning, deep learning, and causal inference, and which will inform how you conceptualize and analyze data. By the end of the course, students will (re)acquaint themselves with the basic principles of probability theory that structure the process that generates data; with the behavior of functions that describe relationships in data; with the rules of linear algebra that govern how to manipulate data; and, finally, with the tools of statistical learning that we use to extract information from our datasets.",
   "semester_start": "2026-08-01",
   "semester_end": "2027-01-31",
-  "generated_at": "2026-10-08T18:32:52+00:00",
+  "generated_at": "2026-10-08T19:22:51+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/DELETE-maths-f2026) or contact the instructor directly.",
+  "previous_offerings": [],
   "syllabus": null,
   "kinds": {
     "lecture": {
       "label": "Lecture",
       "colour": "#a94442",
-      "background": "#f2dede"
+      "background": "#f2dede",
+      "tab": true
     },
     "lab": {
       "label": "Lab",
       "colour": "#3c763d",
-      "background": "#dff0d8"
+      "background": "#dff0d8",
+      "tab": true
     },
     "readings": {
       "label": "Readings",
       "colour": "#2b6a60",
-      "background": "#dcefec"
+      "background": "#dcefec",
+      "tab": true
     },
     "exam": {
       "label": "Exam",
       "colour": "#2b2f36",
-      "background": "#e6e8ec"
+      "background": "#e6e8ec",
+      "tab": true
     },
     "assignment": {
       "label": "Assignment",
       "colour": "#1f5fa8",
-      "background": "#d6e6f7"
+      "background": "#d6e6f7",
+      "tab": false
     },
     "term": {
       "label": "Semester",
       "colour": "#7b3fb8",
-      "background": "#ead9f6"
+      "background": "#ead9f6",
+      "tab": false
     },
     "archive": {
       "label": "Archive",
       "colour": "#7d6230",
-      "background": "#fbf2d5"
+      "background": "#fbf2d5",
+      "tab": false
     },
     "drop-in": {
       "label": "Drop-in",
       "colour": "#8f4a1c",
-      "background": "#fbe3d6"
+      "background": "#fbe3d6",
+      "tab": true
     },
     "assets": {
       "label": "Supporting files",
       "colour": "#4a5560",
-      "background": "#eceff1"
+      "background": "#eceff1",
+      "tab": true
     },
     "other": {
       "label": "Event",
       "colour": "#7d6230",
-      "background": "#fbf2d5"
+      "background": "#fbf2d5",
+      "tab": true
     }
   },
   "rows": [
@@ -78,7 +90,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "term_date"
+      ]
     },
     {
       "id": "lecture_01",
@@ -121,7 +136,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 1 readings\n\n#### Required Readings\n\n[Blitzstein and Hwang](http://probabilitybook.net/)\n\n- Chapter 1 (p. 1-28)\n- Chapter 2 (p. 45-66)\n- Example 2.7.1, The Monty Hall Problem",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "01_lab",
@@ -152,7 +171,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "assignment-1:handout",
@@ -170,7 +192,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "lecture_02",
@@ -195,7 +220,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 2 readings\n\n#### Required Readings\n\n[Blitzstein and Hwang](http://probabilitybook.net/)\n\n- Chapter 3 (p. 103-133)\n\n#### Additional Readings\n\nWill Kurt Bayesian Statistics the Fun Way\n\n- Chapter 3 (p. 21 - 31)\n- Chapter 4 (p. 33 - 43)\n- Chapter 5 (p. 45 - 55)\n- Chapter 6 (p. 59 - 65)",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "02_lab",
@@ -226,7 +255,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture_03",
@@ -251,7 +283,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 3 readings\n\n#### Required Readings\n\n[Blitzstein and Hwang](http://probabilitybook.net/)\n\n- Chapter 4.1 - 4.3 (p. 149 - 163)\n- Chapter 4.5 - 4.7 (p. 170 - 181)\n- Chapter 7.1 (p. 303 - 312)\n- Chapter 7.4 (p. 332 - 337)",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "03_lab",
@@ -288,7 +324,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "assignment-1:due",
@@ -306,7 +345,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "assignment-2:handout",
@@ -324,7 +366,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "lecture_04",
@@ -349,7 +394,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 4 readings\n\n#### Required Readings\n\nHerman and Strang, Calculus Volume 1\n\n- Chapter 3.3 (p. 247 - 260)\n- Chapter 3.4 (p. 270 - 272)\n- Chapter 3.6 (p. 287 - 289)\n- Chapter 3.9 (p. 323 - 327)\n- Chapter 4.3 (p. 366 - 375)\n- Chapter 4.5 (p. 390 - 402)\n\nHerman and Strang, Calculus Volume 2\n\n- Chapter 6.1 (p. 470 - 477)\n- Chapter 6.3 (p. 497 - 511)",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "04_lab",
@@ -380,7 +429,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture_05",
@@ -405,7 +457,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 5 readings\n\n#### Required Readings\n\n[Blitzstein and Hwang](http://probabilitybook.net/)\n\n- Chapter 5.1 - 5.2 (p. 213 - 223)\n- Chapter 5.4 - 5.5 (p. 231 - 244)\n- Chapter 7 (p. 312 - 320, stop before Example 7.1.25)\n- Chapter 7.2 - 7.3 (p. 324 - 332)\n- Chapter 7.5 (p. 337 - 343)\n- Chapter 10.2 - 10.3 (p. 467 - 476)",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "05_lab",
@@ -436,7 +492,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture_06",
@@ -461,7 +520,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 6 readings\n\n#### Required Readings\n\nWasserman, All of Statistics\n\n- Chapter 6\n- Chapter 9.1\n- Chapter 9.3\n- Chapter 9.4\n\n\n\n#### Additional Readings\n\n[Orloff and Bloom, MIT notes on Maximum Likelihood Estimation](https://math.mit.edu/~dav/05.dir/class10-prep.pdf)\n\nHerman and Strang, Calculus Volume 2\n\n- Chapter 6.1\n- Chapter 6.3",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "06_lab",
@@ -492,7 +555,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "assignment-2:due",
@@ -510,7 +576,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "assignment-3:handout",
@@ -528,7 +597,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "lecture_07",
@@ -546,7 +618,11 @@
       "links": [],
       "readings": [],
       "reading_list": "### Session 7 readings\n\n#### Readings\n\nGelman et al., Bayesian Data Analysis\n\n- Chapter 1 (p. 3 - 13)\n- Chapter 2 (p. 29 - 56)",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "07_lab",
@@ -564,7 +640,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture_08",
@@ -582,7 +661,11 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": true
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "08_lab",
@@ -600,7 +683,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture_09",
@@ -618,7 +704,11 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": true
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "09_lab",
@@ -636,7 +726,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "assignment-3:due",
@@ -654,7 +747,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "assignment-4:handout",
@@ -672,7 +768,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "lecture_10",
@@ -690,7 +789,11 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": true
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "10_lab",
@@ -708,7 +811,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture_11",
@@ -726,7 +832,11 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": true
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "11_lab",
@@ -744,7 +854,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture_12",
@@ -762,7 +875,11 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": true
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "12_lab",
@@ -780,7 +897,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "assignment-4:due",
@@ -798,7 +918,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "final-exam",
@@ -816,7 +939,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "exam"
+      ]
     },
     {
       "id": "resit-exam",
@@ -834,7 +960,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "exam"
+      ]
     },
     {
       "id": "term-end",
@@ -852,7 +981,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "term_date"
+      ]
     },
     {
       "id": "semester-archived",
@@ -870,7 +1002,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
+      ]
     }
   ],
   "assignments": [
